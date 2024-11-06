@@ -794,3 +794,53 @@ hint: 'git pull' before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 
 
+----------
+
+Wed Nov 06 2024 15:10:05 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'assets/bootstrap/css/bootstrap.min.css', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 15:10:05 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'assets/bootstrap/js/bootstrap.min.js', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 15:10:05 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'assets/css/styles.css', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 15:10:05 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'assets/img/person.svg', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 15:10:05 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'error.log', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 15:10:05 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'index.html', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 15:10:06 GMT+0700 (Indochina Time)
+
+error: src refspec BichNgoc does not match any
+error: failed to push some refs to 'ori'
+
+
