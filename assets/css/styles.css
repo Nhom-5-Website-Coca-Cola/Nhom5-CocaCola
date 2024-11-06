@@ -1,0 +1,72 @@
+#coca-logo {
+}
+
+#header-nav-link {
+}
+
+body {
+}
+
+#coca-oreo-banner {
+  height: 495px;
+  width: 1267px;
+}
+
+#coca-banner {
+  text-align: center;
+}
+
+#hanh-trinh {
+  width: 681px;
+  height: 241px;
+  background: #ffffff;
+  border-radius: 25px;
+  box-shadow: 0px 25px 25px #9c9c9c;
+  margin-left: 5%;
+}
+
+#tin-tuc {
+}
+
+#hanh-trinh-img {
+  width: 655px;
+  height: 955px;
+  margin-right: 25px;
+}
+
+#muoi-nam {
+  width: 681px;
+  height: 241px;
+  background: #ffffff;
+  margin-left: 50%;
+  border-radius: 25px;
+  box-shadow: 0px 25px 25px #9c9c9c;
+  margin-right: 5%;
+}
+
+#follow-us-heading {
+  color: rgb(255,255,255);
+  font-size: 60px;
+  margin-left: 5%;
+}
+
+#follow-table {
+  --bs-body-bg: rgba(255,255,255,0);
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: none;
+}
+
+#coca-footer {
+  background: #cb0000;
+  height: 529px;
+}
+
+#footer-table {
+  background: rgba(0,0,0,0);
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 5%;
+}
+

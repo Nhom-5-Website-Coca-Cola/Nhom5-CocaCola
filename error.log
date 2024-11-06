@@ -1,0 +1,796 @@
+----------
+
+Wed Nov 06 2024 14:35:22 GMT+0700 (Indochina Time)
+
+fatal: not a git repository (or any of the parent directories): .git
+
+
+----------
+
+Wed Nov 06 2024 14:35:22 GMT+0700 (Indochina Time)
+
+fatal: not a git repository (or any of the parent directories): .git
+
+
+----------
+
+Wed Nov 06 2024 14:35:22 GMT+0700 (Indochina Time)
+
+fatal: not a git repository (or any of the parent directories): .git
+
+
+----------
+
+Wed Nov 06 2024 14:46:21 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'LICENSE.electron.txt', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 14:46:21 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'LICENSES.chromium.html', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 14:46:24 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'resources/app-update.yml', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 14:46:30 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'resources/app.asar.unpacked/node_modules/ssh2/.eslintignore', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 14:46:30 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'resources/app.asar.unpacked/node_modules/ssh2/.eslintrc.js', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 14:46:30 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'resources/app.asar.unpacked/node_modules/ssh2/.github/workflows/ci.yml', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 14:46:30 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'resources/app.asar.unpacked/node_modules/ssh2/.github/workflows/lint.yml', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 14:46:30 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'resources/app.asar.unpacked/node_modules/ssh2/LICENSE', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 14:46:30 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'resources/app.asar.unpacked/node_modules/ssh2/SFTP.md', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 14:46:30 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'resources/app.asar.unpacked/node_modules/ssh2/install.js', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 14:46:30 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'resources/app.asar.unpacked/node_modules/ssh2/lib/Channel.js', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 14:46:30 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'resources/app.asar.unpacked/node_modules/ssh2/lib/agent.js', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 14:46:30 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'resources/app.asar.unpacked/node_modules/ssh2/lib/client.js', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 14:46:30 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'resources/app.asar.unpacked/node_modules/ssh2/lib/http-agents.js', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 14:46:30 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'resources/app.asar.unpacked/node_modules/ssh2/lib/index.js', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 14:46:30 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'resources/app.asar.unpacked/node_modules/ssh2/lib/protocol/Protocol.js', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 14:46:30 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'resources/app.asar.unpacked/node_modules/ssh2/lib/protocol/SFTP.js', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 14:46:30 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'resources/app.asar.unpacked/node_modules/ssh2/lib/protocol/constants.js', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 14:46:30 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'resources/app.asar.unpacked/node_modules/ssh2/lib/protocol/crypto.js', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 14:46:30 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'resources/app.asar.unpacked/node_modules/ssh2/lib/protocol/crypto/poly1305.js', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 14:46:30 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'resources/app.asar.unpacked/node_modules/ssh2/lib/protocol/handlers.js', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 14:46:30 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'resources/app.asar.unpacked/node_modules/ssh2/lib/protocol/handlers.misc.js', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 14:46:30 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'resources/app.asar.unpacked/node_modules/ssh2/lib/protocol/kex.js', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 14:46:30 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'resources/app.asar.unpacked/node_modules/ssh2/lib/protocol/keyParser.js', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 14:46:30 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'resources/app.asar.unpacked/node_modules/ssh2/lib/protocol/node-fs-compat.js', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 14:46:30 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'resources/app.asar.unpacked/node_modules/ssh2/lib/protocol/utils.js', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 14:46:30 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'resources/app.asar.unpacked/node_modules/ssh2/lib/protocol/zlib.js', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 14:46:30 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'resources/app.asar.unpacked/node_modules/ssh2/lib/server.js', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 14:46:30 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'resources/app.asar.unpacked/node_modules/ssh2/lib/utils.js', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 14:46:30 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'resources/app.asar.unpacked/node_modules/ssh2/package.json', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 14:46:30 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'resources/app.asar.unpacked/node_modules/ssh2/util/build_pagent.bat', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 14:46:30 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'resources/app.asar.unpacked/node_modules/ssh2/util/pagent.c', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 14:46:34 GMT+0700 (Indochina Time)
+
+error: src refspec BichNgoc does not match any
+error: failed to push some refs to 'https://github.com/Nhom-5-Website-Coca-Cola/Nhom5-CocaCola/tree/BichNgoc'
+
+
+----------
+
+Wed Nov 06 2024 14:54:45 GMT+0700 (Indochina Time)
+
+error: remote origin already exists.
+
+
+----------
+
+Wed Nov 06 2024 14:54:45 GMT+0700 (Indochina Time)
+
+Switched to a new branch 'BichNgoc'
+
+
+----------
+
+Wed Nov 06 2024 14:54:46 GMT+0700 (Indochina Time)
+
+fatal: repository 'https://github.com/Nhom-5-Website-Coca-Cola/Nhom5-CocaCola/tree/BichNgoc/' not found
+
+
+----------
+
+Wed Nov 06 2024 14:55:55 GMT+0700 (Indochina Time)
+
+error: remote origin already exists.
+
+
+----------
+
+Wed Nov 06 2024 14:55:55 GMT+0700 (Indochina Time)
+
+fatal: a branch named 'BichNgoc' already exists
+
+
+----------
+
+Wed Nov 06 2024 14:55:56 GMT+0700 (Indochina Time)
+
+fatal: repository 'https://github.com/Nhom-5-Website-Coca-Cola/Nhom5-CocaCola/tree/BichNgoc/' not found
+
+
+----------
+
+Wed Nov 06 2024 14:56:20 GMT+0700 (Indochina Time)
+
+fatal: detected dubious ownership in repository at 'E:/newfolder/nam4_ki1/ThietKeGiaoDienNguoiDung/th/DoAn/exportFiles'
+'E:/newfolder/nam4_ki1/ThietKeGiaoDienNguoiDung/th/DoAn/exportFiles/.git' is owned by:
+	BUILTIN/Administrators (S-1-5-32-544)
+but the current user is:
+	AO3/??? (S-1-5-21-1031598168-1420028672-92619133-1002)
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory E:/newfolder/nam4_ki1/ThietKeGiaoDienNguoiDung/th/DoAn/exportFiles
+
+
+----------
+
+Wed Nov 06 2024 14:56:20 GMT+0700 (Indochina Time)
+
+fatal: detected dubious ownership in repository at 'E:/newfolder/nam4_ki1/ThietKeGiaoDienNguoiDung/th/DoAn/exportFiles'
+'E:/newfolder/nam4_ki1/ThietKeGiaoDienNguoiDung/th/DoAn/exportFiles/.git' is owned by:
+	BUILTIN/Administrators (S-1-5-32-544)
+but the current user is:
+	AO3/??? (S-1-5-21-1031598168-1420028672-92619133-1002)
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory E:/newfolder/nam4_ki1/ThietKeGiaoDienNguoiDung/th/DoAn/exportFiles
+
+
+----------
+
+Wed Nov 06 2024 14:56:20 GMT+0700 (Indochina Time)
+
+fatal: detected dubious ownership in repository at 'E:/newfolder/nam4_ki1/ThietKeGiaoDienNguoiDung/th/DoAn/exportFiles'
+'E:/newfolder/nam4_ki1/ThietKeGiaoDienNguoiDung/th/DoAn/exportFiles/.git' is owned by:
+	BUILTIN/Administrators (S-1-5-32-544)
+but the current user is:
+	AO3/??? (S-1-5-21-1031598168-1420028672-92619133-1002)
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory E:/newfolder/nam4_ki1/ThietKeGiaoDienNguoiDung/th/DoAn/exportFiles
+
+
+----------
+
+Wed Nov 06 2024 14:56:20 GMT+0700 (Indochina Time)
+
+fatal: detected dubious ownership in repository at 'E:/newfolder/nam4_ki1/ThietKeGiaoDienNguoiDung/th/DoAn/exportFiles'
+'E:/newfolder/nam4_ki1/ThietKeGiaoDienNguoiDung/th/DoAn/exportFiles/.git' is owned by:
+	BUILTIN/Administrators (S-1-5-32-544)
+but the current user is:
+	AO3/??? (S-1-5-21-1031598168-1420028672-92619133-1002)
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory E:/newfolder/nam4_ki1/ThietKeGiaoDienNguoiDung/th/DoAn/exportFiles
+
+
+----------
+
+Wed Nov 06 2024 14:56:20 GMT+0700 (Indochina Time)
+
+fatal: detected dubious ownership in repository at 'E:/newfolder/nam4_ki1/ThietKeGiaoDienNguoiDung/th/DoAn/exportFiles'
+'E:/newfolder/nam4_ki1/ThietKeGiaoDienNguoiDung/th/DoAn/exportFiles/.git' is owned by:
+	BUILTIN/Administrators (S-1-5-32-544)
+but the current user is:
+	AO3/??? (S-1-5-21-1031598168-1420028672-92619133-1002)
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory E:/newfolder/nam4_ki1/ThietKeGiaoDienNguoiDung/th/DoAn/exportFiles
+
+
+----------
+
+Wed Nov 06 2024 14:58:17 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'assets/bootstrap/css/bootstrap.min.css', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 14:58:17 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'assets/bootstrap/js/bootstrap.min.js', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 14:58:17 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'assets/css/styles.css', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 14:58:17 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'assets/img/person.svg', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 14:58:17 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'error.log', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 14:58:17 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'index.html', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 14:58:17 GMT+0700 (Indochina Time)
+
+error: remote origin already exists.
+
+
+----------
+
+Wed Nov 06 2024 14:58:18 GMT+0700 (Indochina Time)
+
+fatal: a branch named 'BichNgoc' already exists
+
+
+----------
+
+Wed Nov 06 2024 14:58:18 GMT+0700 (Indochina Time)
+
+fatal: repository 'https://github.com/Nhom-5-Website-Coca-Cola/Nhom5-CocaCola/tree/BichNgoc/' not found
+
+
+----------
+
+Wed Nov 06 2024 14:59:05 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'assets/bootstrap/css/bootstrap.min.css', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 14:59:05 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'assets/bootstrap/js/bootstrap.min.js', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 14:59:05 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'assets/css/styles.css', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 14:59:05 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'assets/img/person.svg', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 14:59:05 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'error.log', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 14:59:05 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'index.html', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 14:59:05 GMT+0700 (Indochina Time)
+
+error: remote origin already exists.
+
+
+----------
+
+Wed Nov 06 2024 14:59:05 GMT+0700 (Indochina Time)
+
+fatal: a branch named 'BichNgoc' already exists
+
+
+----------
+
+Wed Nov 06 2024 14:59:06 GMT+0700 (Indochina Time)
+
+fatal: repository 'https://github.com/Nhom-5-Website-Coca-Cola/Nhom5-CocaCola/tree/BichNgoc/' not found
+
+
+----------
+
+Wed Nov 06 2024 15:00:54 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'assets/bootstrap/css/bootstrap.min.css', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 15:00:54 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'assets/bootstrap/js/bootstrap.min.js', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 15:00:54 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'assets/css/styles.css', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 15:00:54 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'assets/img/person.svg', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 15:00:54 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'error.log', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 15:00:54 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'index.html', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 15:00:55 GMT+0700 (Indochina Time)
+
+fatal: repository 'https://github.com/Nhom-5-Website-Coca-Cola/Nhom5-CocaCola/tree/BichNgoc/' not found
+
+
+----------
+
+Wed Nov 06 2024 15:03:51 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'assets/bootstrap/css/bootstrap.min.css', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 15:03:51 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'assets/bootstrap/js/bootstrap.min.js', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 15:03:51 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'assets/css/styles.css', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 15:03:51 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'assets/img/person.svg', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 15:03:51 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'error.log', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 15:03:51 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'index.html', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 15:03:51 GMT+0700 (Indochina Time)
+
+error: remote origin already exists.
+
+
+----------
+
+Wed Nov 06 2024 15:03:52 GMT+0700 (Indochina Time)
+
+fatal: repository 'https://github.com/Nhom-5-Website-Coca-Cola/Nhom5-CocaCola/tree/BichNgoc/' not found
+
+
+----------
+
+Wed Nov 06 2024 15:04:58 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'assets/bootstrap/css/bootstrap.min.css', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 15:04:58 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'assets/bootstrap/js/bootstrap.min.js', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 15:04:58 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'assets/css/styles.css', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 15:04:58 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'assets/img/person.svg', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 15:04:58 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'error.log', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 15:04:58 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'index.html', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 15:04:58 GMT+0700 (Indochina Time)
+
+Already on 'BichNgoc'
+
+
+----------
+
+Wed Nov 06 2024 15:05:02 GMT+0700 (Indochina Time)
+
+To https://github.com/Nhom-5-Website-Coca-Cola/Nhom5-CocaCola.git
+ ! [rejected]        BichNgoc -> BichNgoc (fetch first)
+error: failed to push some refs to 'https://github.com/Nhom-5-Website-Coca-Cola/Nhom5-CocaCola.git'
+
+
+----------
+
+Wed Nov 06 2024 15:05:02 GMT+0700 (Indochina Time)
+
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+
+----------
+
+Wed Nov 06 2024 15:08:26 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'assets/bootstrap/css/bootstrap.min.css', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 15:08:26 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'assets/bootstrap/js/bootstrap.min.js', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 15:08:26 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'assets/css/styles.css', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 15:08:26 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'assets/img/person.svg', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 15:08:26 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'error.log', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 15:08:26 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'index.html', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 15:08:28 GMT+0700 (Indochina Time)
+
+To https://github.com/Nhom-5-Website-Coca-Cola/Nhom5-CocaCola.git
+ ! [rejected]        BichNgoc -> BichNgoc (fetch first)
+error: failed to push some refs to 'https://github.com/Nhom-5-Website-Coca-Cola/Nhom5-CocaCola.git'
+
+
+----------
+
+Wed Nov 06 2024 15:08:28 GMT+0700 (Indochina Time)
+
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+
+----------
+
+Wed Nov 06 2024 15:09:11 GMT+0700 (Indochina Time)
+
+fatal: repository 'https://github.com/Nhom-5-Website-Coca-Cola/Nhom5-CocaCola/tree/BichNgoc/' not found
+
+
+----------
+
+Wed Nov 06 2024 15:09:11 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'assets/bootstrap/css/bootstrap.min.css', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 15:09:11 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'assets/bootstrap/js/bootstrap.min.js', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 15:09:11 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'assets/css/styles.css', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 15:09:11 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'assets/img/person.svg', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 15:09:11 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'error.log', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 15:09:11 GMT+0700 (Indochina Time)
+
+warning: in the working copy of 'index.html', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Wed Nov 06 2024 15:09:13 GMT+0700 (Indochina Time)
+
+To https://github.com/Nhom-5-Website-Coca-Cola/Nhom5-CocaCola.git
+ ! [rejected]        BichNgoc -> BichNgoc (fetch first)
+error: failed to push some refs to 'https://github.com/Nhom-5-Website-Coca-Cola/Nhom5-CocaCola.git'
+
+
+----------
+
+Wed Nov 06 2024 15:09:13 GMT+0700 (Indochina Time)
+
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+
