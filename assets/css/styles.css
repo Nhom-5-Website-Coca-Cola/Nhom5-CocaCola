@@ -70,3 +70,10 @@ body {
   padding-top: 5%;
 }
 
+#kham-pha-drop {
+  color: rgb(0,0,0);
+  font-size: 25px;
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+}
+
