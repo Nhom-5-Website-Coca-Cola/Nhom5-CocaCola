@@ -77,3 +77,84 @@ body {
   font-weight: bold;
 }
 
+#login-form {
+  background: #ffffff;
+  border-radius: 25px;
+  box-shadow: 0px 25px 25px rgb(148,150,151);
+}
+
+#para2 {
+  font-size: 45px;
+}
+
+#para3 {
+  font-size: 35px;
+  --bs-body-font-weight: 1;
+  color: #4f4f4f;
+  padding-left: 10%;
+}
+
+#para1 {
+  font-weight: bold;
+  font-size: 60px;
+  padding-left: 10%;
+  padding-top: 5%;
+}
+
+#email {
+  font-size: 45px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#email-input {
+  height: 70px;
+  border-radius: 15px;
+  box-shadow: 0px 20px 10px rgb(147,149,150);
+  border: 2px solid rgb(146,143,143) ;
+  border-top-style: solid;
+}
+
+#tiep-tuc-btn {
+  width: 50%;
+  height: 65px;
+  border-radius: 35px;
+  background: #fe0101;
+  font-size: 30px;
+  margin: 0%;
+  border-top-style: none;
+}
+
+#hoac-cell {
+  text-align: center;
+}
+
+#tiep-tuc-google {
+  padding-left: 21%;
+  padding-right: 9%;
+}
+
+#google-btn {
+  background: #ede3e3;
+  color: rgb(0,0,0);
+  width: 80%;
+  padding-left: 0px;
+  height: 65px;
+  font-size: 30px;
+  border-radius: 30px;
+}
+
+#gg-img {
+  width: 50px;
+  height: 50px;
+  margin-right: 3%;
+}
+
+#google-btn {
+}
+
+#tiep-tuc-fb {
+  padding-right: 9%;
+  padding-left: 21%;
+}
+
