@@ -158,3 +158,35 @@ body {
   padding-left: 21%;
 }
 
+#kham-pha {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: Roboto, sans-serif;
+  --bs-body-font-weight: 1002px;
+  text-align: center;
+}
+
+#tat-ca {
+  font-size: 30px;
+  font-family: Roboto, sans-serif;
+  text-align: center;
+}
+
+#fanta {
+  width: 30%;
+  height: 30%;
+  background: #ffffff;
+  text-align: center;
+  padding: 3%;
+}
+
+#sprite {
+  background: #ffffff;
+  padding: 3%;
+  width: 30%;
+  height: 30%;
+}
+
+#unused {
+}
+
