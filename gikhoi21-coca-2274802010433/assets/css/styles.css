@@ -1,0 +1,150 @@
+body {
+  background: #eeeeee;
+  color: rgb(0,0,0);
+}
+
+#img-2 {
+  margin: 14px;
+  background: linear-gradient(-88deg, rgba(255,255,255,0), #000000 54%, #000000 100%), url("../../assets/img/LINEAR%20COCA.jpg");
+}
+
+#sec-linear {
+}
+
+#linearcoca {
+  backdrop-filter: brightness(100%);
+  -webkit-backdrop-filter: brightness(100%);
+  background: linear-gradient(89deg, black, rgb(131,131,131) 50%, white);
+}
+
+#img2 {
+  border-radius: 17px;
+  background: linear-gradient(92deg, black 33%, white), url("../../assets/img/LINEAR%20COCA.jpg") center / cover no-repeat;
+  text-align: center;
+}
+
+#hero {
+  width: 100%;
+  text-align: center;
+}
+
+.btn {
+  color: #595959;
+}
+
+#img1 {
+}
+
+.far.fa-arrow-alt-circle-right {
+  margin: 2px;
+  padding: 1px;
+}
+
+#linear {
+  width: 1151.4px;
+  height: 660.85px;
+  background: url("../../assets/img/LINEAR%20COCA.jpg") top / cover no-repeat;
+}
+
+.card-img {
+}
+
+#img-linear {
+  background: #eeeeee;
+}
+
+#para-linear {
+  text-align: left;
+  width: 524px;
+  margin: 62px 11px -1px;
+  padding: 0px;
+}
+
+#final1 {
+  width: 497px;
+  margin: 99px;
+  padding: 13px;
+  border-radius: 21px;
+  margin-left: 183px;
+  margin-bottom: 67px;
+  margin-top: 69px;
+}
+
+#card1 {
+  border-radius: 21px;
+  box-shadow: 10px 20px 28px rgba(0,0,0,0.30);
+  border-color: rgba(33,37,41,0);
+  border-right-color: rgba(24,22,22,0);
+  margin-right: 18px;
+  padding-right: 0px;
+  padding-top: 0px;
+  margin-top: -10px;
+}
+
+#taichecoca {
+  width: 539px;
+  margin: -14px;
+  margin-bottom: 0px;
+  padding-right: 0px;
+  border-radius: 21px;
+  margin-right: 0px;
+  margin-top: -38px;
+  padding-left: 2px;
+  margin-left: -66px;
+}
+
+#card-final {
+  box-shadow: -10px 20px 28px rgba(0,0,0,0.30);
+  border-radius: 21px;
+  margin: 30px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  margin-top: 0px;
+  margin-left: -8px;
+  margin-right: 0px;
+  padding-right: 0px;
+}
+
+#footer-table {
+  background: #cb0000;
+}
+
+#footer-coca {
+  color: rgb(255,255,255);
+  background: #cb0000;
+  margin-top: 38px;
+  padding-top: 66px;
+}
+
+#profile {
+  color: rgb(203,0,0);
+}
+
+#btn-signin {
+  color: rgb(255,255,255);
+  background: #cb0000;
+}
+
+#btnsp {
+  background: rgb(255,255,255);
+}
+
+#btn-stroke {
+  border-color: #cb0000;
+  color: rgb(203,0,0);
+}
+
+#btnsp2 {
+  background: rgb(203,0,0);
+  color: rgb(255,255,255);
+  margin-top: 52px;
+  margin-left: 146px;
+}
+
+#btnsp2-1 {
+  background: rgb(203,0,0);
+  color: rgb(255,255,255);
+  margin-top: 22px;
+  margin-left: 136px;
+}
+
