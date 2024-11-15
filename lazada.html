@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazada</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div class="bg-white">
+        <nav class="shadow-lg h-[140px]">
+            <div class="h-[25px] w-full bg-[#f7f7f7]">
+                <div
+                    class="max-w-[1150px] h-full flex items-center justify-center mx-auto gap-6 *:text-sm hover:*:text-[#f57224] *:cursor-pointer *:duration-300">
+                    <span class="text-[#ff00ff]">Góp ý</span>
+                    <span>Tiết kiệm hơn với ứng dụng</span>
+                    <span>BÁN HÀNG CÙNG LAZADA</span>
+                    <span>CHĂM SÓC KHÁCH HÀNG</span>
+                    <span class="text-[#9e9e9e]">KIỂM TRA ĐƠN HÀNG</span>
+                    <span class="text-[#9e9e9e]">ĐĂNG NHẬP</span>
+                    <span class="text-[#9e9e9e]">ĐĂNG KÝ</span>
+                    <span class="text-[#9e9e9e]">CHANGE LANGUAGE</span>
+                </div>
+            </div>
+            <div class="grid grid-cols-7 gap-2 max-w-[1200px] mx-auto pt-3">
+                <div class="w-[127px] h-[44px] flex items-center">
+                    <a href="//www.lazada.vn/" data-spm="dhome" rel="noopener noreferrer"><img
+                            src="https://img.lazcdn.com/g/tps/images/ims-web/TB1T7K2d8Cw3KVjSZFuXXcAOpXa.png"
+                            alt="Mua sắm online Lazada.vn Logo">
+                    </a>
+                </div>
+                <div class="col-span-4 h-[45px] flex items-center">
+                    <input type="text" placeholder="Tìm kiếm trên Lazada"
+                        class="w-full h-full border-none px-2 py-2 outline-none bg-[#eff0f5]">
+                    <button class="w-[45px]  h-full bg-[#f57224] *:text-white">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="mx-auto" width="18" height="18"
+                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search">
+                            <circle cx="11" cy="11" r="8" />
+                            <path d="m21 21-4.3-4.3" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="pl-[30px] flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="lucide lucide-shopping-cart">
+                        <circle cx="8" cy="21" r="1" />
+                        <circle cx="19" cy="21" r="1" />
+                        <path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12" />
+                    </svg>
+                </div>
+                <div class="w-[188px] -ml-[50px]">
+                    <a id="topActionEWallet" class="lzd-header-banner-ewallet"
+                        href="https://pages.lazada.vn/wow/gcp/route/lazada/vn/upr_1000345_lazada/channel/vn/upr-router/vn?hybrid=1&amp;data_prefetch=true&amp;prefetch_replace=1&amp;at_iframe=1&amp;wh_pid=/lazada/channel/vn/thanh-toan/uu-dai-thanh-toan"
+                        target="_blank" data-spm="dewallet" rel="noopener noreferrer" style="display: inline;"><img
+                            src="https://img.lazcdn.com/us/domino/4bbf0033-258a-4e6b-ba21-8077fefb63dc_VN-376-90.png"
+                            alt="OCB"></a>
+                </div>
+            </div>
+            <div class="flex items-center h-[40px] max-w-[1200px] mx-auto pt-8">
+                <div class="w-[200px]">
+                    <button class="flex items-center *:text-[#0f136d] font-semibold">
+                        <span>Danh mục</span>
+                        <svg class="rotate-90" xmlns="http://www.w3.org/2000/svg" width="22" height="22"
+                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right">
+                            <path d="m9 18 6-6-6-6" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="flex items-center gap-6">
+                    <div class="flex items-center">
+                        <img alt="LazMall" class="w-[21px] h-[21px]"
+                            src="https://img.lazcdn.com/g/tps/images/ims-web/TB15wgLWBr0gK0jSZFnXXbRRXXa.png">
+                        <span>LazMall</span>
+                    </div>
+                    <div class="flex items-center">
+                        <img alt="Mã" class="w-[21px] h-[21px]"
+                            src="https://img.lazcdn.com/g/tps/images/ims-web/TB1UiNthUT1gK0jSZFhXXaAtVXa.png">
+                        <span>Mã Giảm Giá</span>
+                    </div>
+                    <div class="flex items-center">
+                        <img alt="Nạp Thẻ" class="w-[21px] h-[21px]"
+                            src="https://img.lazcdn.com/g/tps/images/ims-web/TB1DahvhO_1gK0jSZFqXXcpaXXa.png">
+                        <span>Nạp thẻ & eVoucher</span>
+                    </div>
+                    <div class="flex items-center">
+                        <img alt="LazGlobal" class="w-[21px] h-[21px]"
+                            src="https://img.lazcdn.com/g/tps/images/ims-web/TB1CDWbBYj1gK0jSZFuXXcrHpXa.png">
+                        <span>LazGlobal</span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <main class="bg-[#c90a11] w-full *:text-white">
+            <div
+                style="background-image: url('./assets/bgLazada.png'); background-size: cover; background-position: center;">
+                <div class="max-w-[1200px] mx-auto">
+                    <div class="h-[178px] pt-[15px]">
+                        <div class="w-[600px] h-[100px] bg-white flex items-start p-[10px] ">
+                            <img src="https://img.lazcdn.com/g/ot/shop/84a379d3940c4cb6823d515a558cc3da.jpg_80x80q80.jpg_.webp"
+                                source="[object Object]" alt="storeLogo"
+                                placeholder="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="
+                                compresssuffix="Q75,Q50" defaultheight="750rem"
+                                style="max-width: 100%; background: url(&quot;//lzd-img-global.slatic.net/g/tps/tfs/TB1I2UIXgHqK1RjSZFEXXcGMXXa-720-720.png&quot;) center center / contain no-repeat rgb(245, 245, 245);">
+                            <div class="flex items-center gap-3 px-3 ">
+                                <div class="flex flex-col gap-1">
+                                    <h3 class="font-bold text-[#555555]">Coca-Cola Chính Hãng</h3>
+                                    <img src="//laz-img-cdn.alicdn.com/tfs/O1CN01OccqHG1FkUbx2SWgD_!!6000000000525-2-tps-513-48.png"
+                                        alt="storeIcon" source="[object Object]"
+                                        placeholder="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="
+                                        compresssuffix="Q75,Q50" defaultheight="750rem" style="height: 15px;">
+                                    <span class="text-[#757575] text-sm">97% Đánh giá tích cực</span>
+                                </div>
+                                <div class="border-l pl-4">
+                                    <span class="text-[#757575] text-sm">16648 Followers</span>
+                                </div>
+                                <div class="flex items-center ml-1">
+                                    <button
+                                        class="*:text-black *:text-center *:text-[#003e52] hover:bg-gray-200 duration-300 w-[80px] h-full">
+                                        <svg class="mx-auto" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"
+                                            class="lucide lucide-message-square">
+                                            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+                                        </svg>
+                                        <span>Chat Now</span>
+                                    </button>
+                                    <button
+                                        class="*:text-[#ff5000] *:text-center *:text-[#003e52] hover:bg-gray-200 duration-300 w-[80px] h-full">
+                                        <div class="flex items-center justify-center">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="lucide lucide-plus">
+                                                <path d="M5 12h14" />
+                                                <path d="M12 5v14" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="lucide lucide-store">
+                                                <path d="m2 7 4.41-4.41A2 2 0 0 1 7.83 2h8.34a2 2 0 0 1 1.42.59L22 7" />
+                                                <path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8" />
+                                                <path d="M15 22v-4a2 2 0 0 0-2-2h-2a2 2 0 0 0-2 2v4" />
+                                                <path d="M2 7h20" />
+                                                <path
+                                                    d="M22 7v3a2 2 0 0 1-2 2a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 16 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 12 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 8 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 4 12a2 2 0 0 1-2-2V7" />
+                                            </svg>
+                                        </div>
+                                        <span>FOLLOW</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-full flex items-center justify-between pt-[18px]">
+                            <div class="flex items-center gap-12">
+                                <div class="flex items-center">
+                                    <span>Categories</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="rotate-90" width="20" height="20"
+                                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round"
+                                        class="lucide lucide-chevron-right">
+                                        <path d="m9 18 6-6-6-6" />
+                                    </svg>
+                                </div>
+                                <div class="flex items-center">
+                                    <span>Cửa hàng</span>
+                                </div>
+                                <div class="flex items-center">
+                                    <span>Sản phẩm</span>
+                                </div>
+                                <div class="border-b-4 border-[#f8d663]">
+                                    <img src="https://img.lazcdn.com/us/lazgcp/5b23e259-1127-4668-a8f6-ef336cfed174_ALL-160-40.png#width=160&amp;height=40"
+                                        alt="campIcon" height="35" source="[object Object]"
+                                        placeholder="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="
+                                        compresssuffix="Q75,Q50" defaultheight="750rem">
+
+                                </div>
+                                <div class="flex items-center">
+                                    <span>Hồ sơ</span>
+                                </div>
+                            </div>
+                            <div class="relative">
+                                <input type="text" placeholder="Search in store"
+                                    class="outline-none w-[300px] h-[34px] px-3 rounded text-black">
+                                <button
+                                    class="absolute right-[10px] bottom-0 *:text-gray-500 h-full flex items-center ">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="lucide lucide-search">
+                                        <circle cx="11" cy="11" r="8" />
+                                        <path d="m21 21-4.3-4.3" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="max-w-[1200px] mx-auto pt-[30px] grid grid-cols-3 gap-3 ">
+                <a href="https://www.lazada.vn/products/hoa-toc-hcm-thungloc-24-lon-mi-nhon-nuoc-ngot-giai-khat-co-ga-coca-cola-vi-nguyen-ban-original-235mllon-sale-1511-coca-cola-chinh-hang-i2580790169-s12582423082.html?search=store"
+                    class="flex items-start overflow-hidden rounded h-[144px] w-[390px] bg-white *:text-black">
+                    <img src="https://img.lazcdn.com/g/p/16b23007bb1ed651fedbfa185fec72ec.png_150x150q80.png_.webp"
+                        placeholder="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="
+                        compresssuffix="Q75,Q50" defaultheight="750rem" />
+                    <div class="pl-2 pt-1 w-full relative">
+                        <div class="text-sm max-w-[250px] line-clamp-3 pt-2">
+                            <span class="uppercase px-2 rounded py-[2px] bg-red-600 text-white font-bold">Giữa
+                                tháng</span>
+                            <span class="">[HOẢ TỐC HCM] Thùng/Lốc 24 Lon Mi-nhon Nước Ngọt Giải Khát Có Ga Coca-Cola Vị
+                                Nguyên Bản Original 235ml/Lon Sale 15.11 Coca-Cola Chính Hãng</span>
+                        </div>
+                        <div class="flex flex-col py-2">
+                            <span class="text-red-500 font-semibold">205.000 ₫</span>
+                            <del class="text-sm">250.000 ₫</del>
+                        </div>
+                        <div class="absolute right-2 -bottom-1">
+                            <button class="uppercase border rounded-full px-2  w-[50px] border-red-500 text-red-500 ">
+                                go
+                            </button>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.lazada.vn/products/hoa-toc-hcm-thungloc-24-lon-mi-nhon-nuoc-ngot-giai-khat-co-ga-coca-cola-vi-nguyen-ban-original-235mllon-sale-1511-coca-cola-chinh-hang-i2580790169-s12582423082.html?search=store"
+                    class="flex items-start overflow-hidden rounded h-[144px] w-[390px] bg-white *:text-black">
+                    <img src="https://img.lazcdn.com/g/p/16b23007bb1ed651fedbfa185fec72ec.png_150x150q80.png_.webp"
+                        placeholder="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="
+                        compresssuffix="Q75,Q50" defaultheight="750rem" />
+                    <div class="pl-2 pt-1 w-full relative">
+                        <div class="text-sm max-w-[250px] line-clamp-3 pt-2">
+                            <span class="uppercase px-2 rounded py-[2px] bg-red-600 text-white font-bold">Giữa
+                                tháng</span>
+                            <span class="">[HOẢ TỐC HCM] Thùng/Lốc 24 Lon Mi-nhon Nước Ngọt Giải Khát Có Ga Coca-Cola Vị
+                                Nguyên Bản Original 235ml/Lon Sale 15.11 Coca-Cola Chính Hãng</span>
+                        </div>
+                        <div class="flex flex-col py-2">
+                            <span class="text-red-500 font-semibold">205.000 ₫</span>
+                            <del class="text-sm">250.000 ₫</del>
+                        </div>
+                        <div class="absolute right-2 -bottom-1">
+                            <button class="uppercase border rounded-full px-2  w-[50px] border-red-500 text-red-500 ">
+                                go
+                            </button>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.lazada.vn/products/hoa-toc-hcm-thungloc-24-lon-mi-nhon-nuoc-ngot-giai-khat-co-ga-coca-cola-vi-nguyen-ban-original-235mllon-sale-1511-coca-cola-chinh-hang-i2580790169-s12582423082.html?search=store"
+                    class="flex items-start overflow-hidden rounded h-[144px] w-[390px] bg-white *:text-black">
+                    <img src="https://img.lazcdn.com/g/p/16b23007bb1ed651fedbfa185fec72ec.png_150x150q80.png_.webp"
+                        placeholder="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="
+                        compresssuffix="Q75,Q50" defaultheight="750rem" />
+                    <div class="pl-2 pt-1 w-full relative">
+                        <div class="text-sm max-w-[250px] line-clamp-3 pt-2">
+                            <span class="uppercase px-2 rounded py-[2px] bg-red-600 text-white font-bold">Giữa
+                                tháng</span>
+                            <span class="">[HOẢ TỐC HCM] Thùng/Lốc 24 Lon Mi-nhon Nước Ngọt Giải Khát Có Ga Coca-Cola Vị
+                                Nguyên Bản Original 235ml/Lon Sale 15.11 Coca-Cola Chính Hãng</span>
+                        </div>
+                        <div class="flex flex-col py-2">
+                            <span class="text-red-500 font-semibold">205.000 ₫</span>
+                            <del class="text-sm">250.000 ₫</del>
+                        </div>
+                        <div class="absolute right-2 -bottom-1">
+                            <button class="uppercase border rounded-full px-2  w-[50px] border-red-500 text-red-500 ">
+                                go
+                            </button>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="max-w-[1200px] mx-auto mt-[80px]">
+                <h1 class="text-3xl font-bold h-[92px] text-center">Dành riêng cho bạn</h1>
+                <div class="grid grid-cols-6 gap-3">
+                    <a class="relative rounded overflow-hidden"
+                        href="https://www.lazada.vn/products/hoa-toc-hcm-loc-24-chai-thuc-uong-tu-sua-chua-nutriboost-vi-cam-170mlchai-sale-1511-coca-cola-chinh-hang-i2580959311-s12583189200.html?search=store">
+                        <img src="https://img.lazcdn.com/g/p/7b12df977ab3316915373d620174157a.png_200x200q80.png_.webp"
+                            source="[object Object]"
+                            placeholder="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="
+                            compresssuffix="Q75,Q50" defaultheight="750rem" class="w-[190px]" />
+                        <div class="absolute top-[175px] left-2">
+                            <span class="uppercase px-2 bg-red-600 text-[13px] py-[2px] font-bold rounded">Giữa
+                                tháng</span>
+                        </div>
+                        <div class="h-[120px] w-[190px] bg-white text-black px-2 pt-4">
+                            <span class="text-sm line-clamp-2">[HOẢ TỐC HCM] Lốc 24 Chai Thức Uống từ Sữa Chua
+                                Nutriboost Vị Cam 170ml/Chai Sale 15.11 Coca-Cola Chính Hãng</span>
+                            <div class="flex flex-col py-2">
+                                <span class="text-red-500 font-semibold">205.000 ₫</span>
+                                <del class="text-sm">250.000 ₫</del>
+                            </div>
+                        </div>
+                        <div class="w-[190px] bg-white pb-2 px-2">
+                            <button class="uppercase  w-full text-sm py-1 px-2 text-white rounded-full"
+                                style="background-image: linear-gradient(150deg, rgb(255, 41, 41), rgb(247, 19, 163));">Cho
+                                vào giỏ hàng >
+                            </button>
+                        </div>
+                    </a>
+                    <a class="relative rounded overflow-hidden"
+                        href="https://www.lazada.vn/products/hoa-toc-hcm-loc-24-chai-thuc-uong-tu-sua-chua-nutriboost-vi-cam-170mlchai-sale-1511-coca-cola-chinh-hang-i2580959311-s12583189200.html?search=store">
+                        <img src="https://img.lazcdn.com/g/p/7b12df977ab3316915373d620174157a.png_200x200q80.png_.webp"
+                            source="[object Object]"
+                            placeholder="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="
+                            compresssuffix="Q75,Q50" defaultheight="750rem" class="w-[190px]" />
+                        <div class="absolute top-[175px] left-2">
+                            <span class="uppercase px-2 bg-red-600 text-[13px] py-[2px] font-bold rounded">Giữa
+                                tháng</span>
+                        </div>
+                        <div class="h-[120px] w-[190px] bg-white text-black px-2 pt-4">
+                            <span class="text-sm line-clamp-2">[HOẢ TỐC HCM] Lốc 24 Chai Thức Uống từ Sữa Chua
+                                Nutriboost Vị Cam 170ml/Chai Sale 15.11 Coca-Cola Chính Hãng</span>
+                            <div class="flex flex-col py-2">
+                                <span class="text-red-500 font-semibold">205.000 ₫</span>
+                                <del class="text-sm">250.000 ₫</del>
+                            </div>
+                        </div>
+                        <div class="w-[190px] bg-white pb-2 px-2">
+                            <button class="uppercase  w-full text-sm py-1 px-2 text-white rounded-full"
+                                style="background-image: linear-gradient(150deg, rgb(255, 41, 41), rgb(247, 19, 163));">Cho
+                                vào giỏ hàng >
+                            </button>
+                        </div>
+                    </a>
+                    <a class="relative rounded overflow-hidden"
+                        href="https://www.lazada.vn/products/hoa-toc-hcm-loc-24-chai-thuc-uong-tu-sua-chua-nutriboost-vi-cam-170mlchai-sale-1511-coca-cola-chinh-hang-i2580959311-s12583189200.html?search=store">
+                        <img src="https://img.lazcdn.com/g/p/7b12df977ab3316915373d620174157a.png_200x200q80.png_.webp"
+                            source="[object Object]"
+                            placeholder="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="
+                            compresssuffix="Q75,Q50" defaultheight="750rem" class="w-[190px]" />
+                        <div class="absolute top-[175px] left-2">
+                            <span class="uppercase px-2 bg-red-600 text-[13px] py-[2px] font-bold rounded">Giữa
+                                tháng</span>
+                        </div>
+                        <div class="h-[120px] w-[190px] bg-white text-black px-2 pt-4">
+                            <span class="text-sm line-clamp-2">[HOẢ TỐC HCM] Lốc 24 Chai Thức Uống từ Sữa Chua
+                                Nutriboost Vị Cam 170ml/Chai Sale 15.11 Coca-Cola Chính Hãng</span>
+                            <div class="flex flex-col py-2">
+                                <span class="text-red-500 font-semibold">205.000 ₫</span>
+                                <del class="text-sm">250.000 ₫</del>
+                            </div>
+                        </div>
+                        <div class="w-[190px] bg-white pb-2 px-2">
+                            <button class="uppercase  w-full text-sm py-1 px-2 text-white rounded-full"
+                                style="background-image: linear-gradient(150deg, rgb(255, 41, 41), rgb(247, 19, 163));">Cho
+                                vào giỏ hàng >
+                            </button>
+                        </div>
+                    </a>
+                    <a class="relative rounded overflow-hidden"
+                        href="https://www.lazada.vn/products/hoa-toc-hcm-loc-24-chai-thuc-uong-tu-sua-chua-nutriboost-vi-cam-170mlchai-sale-1511-coca-cola-chinh-hang-i2580959311-s12583189200.html?search=store">
+                        <img src="https://img.lazcdn.com/g/p/7b12df977ab3316915373d620174157a.png_200x200q80.png_.webp"
+                            source="[object Object]"
+                            placeholder="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="
+                            compresssuffix="Q75,Q50" defaultheight="750rem" class="w-[190px]" />
+                        <div class="absolute top-[175px] left-2">
+                            <span class="uppercase px-2 bg-red-600 text-[13px] py-[2px] font-bold rounded">Giữa
+                                tháng</span>
+                        </div>
+                        <div class="h-[120px] w-[190px] bg-white text-black px-2 pt-4">
+                            <span class="text-sm line-clamp-2">[HOẢ TỐC HCM] Lốc 24 Chai Thức Uống từ Sữa Chua
+                                Nutriboost Vị Cam 170ml/Chai Sale 15.11 Coca-Cola Chính Hãng</span>
+                            <div class="flex flex-col py-2">
+                                <span class="text-red-500 font-semibold">205.000 ₫</span>
+                                <del class="text-sm">250.000 ₫</del>
+                            </div>
+                        </div>
+                        <div class="w-[190px] bg-white pb-2 px-2">
+                            <button class="uppercase  w-full text-sm py-1 px-2 text-white rounded-full"
+                                style="background-image: linear-gradient(150deg, rgb(255, 41, 41), rgb(247, 19, 163));">Cho
+                                vào giỏ hàng >
+                            </button>
+                        </div>
+                    </a>
+                    <a class="relative rounded overflow-hidden"
+                        href="https://www.lazada.vn/products/hoa-toc-hcm-loc-24-chai-thuc-uong-tu-sua-chua-nutriboost-vi-cam-170mlchai-sale-1511-coca-cola-chinh-hang-i2580959311-s12583189200.html?search=store">
+                        <img src="https://img.lazcdn.com/g/p/7b12df977ab3316915373d620174157a.png_200x200q80.png_.webp"
+                            source="[object Object]"
+                            placeholder="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="
+                            compresssuffix="Q75,Q50" defaultheight="750rem" class="w-[190px]" />
+                        <div class="absolute top-[175px] left-2">
+                            <span class="uppercase px-2 bg-red-600 text-[13px] py-[2px] font-bold rounded">Giữa
+                                tháng</span>
+                        </div>
+                        <div class="h-[120px] w-[190px] bg-white text-black px-2 pt-4">
+                            <span class="text-sm line-clamp-2">[HOẢ TỐC HCM] Lốc 24 Chai Thức Uống từ Sữa Chua
+                                Nutriboost Vị Cam 170ml/Chai Sale 15.11 Coca-Cola Chính Hãng</span>
+                            <div class="flex flex-col py-2">
+                                <span class="text-red-500 font-semibold">205.000 ₫</span>
+                                <del class="text-sm">250.000 ₫</del>
+                            </div>
+                        </div>
+                        <div class="w-[190px] bg-white pb-2 px-2">
+                            <button class="uppercase  w-full text-sm py-1 px-2 text-white rounded-full"
+                                style="background-image: linear-gradient(150deg, rgb(255, 41, 41), rgb(247, 19, 163));">Cho
+                                vào giỏ hàng >
+                            </button>
+                        </div>
+                    </a>
+                    <a class="relative rounded overflow-hidden"
+                        href="https://www.lazada.vn/products/hoa-toc-hcm-loc-24-chai-thuc-uong-tu-sua-chua-nutriboost-vi-cam-170mlchai-sale-1511-coca-cola-chinh-hang-i2580959311-s12583189200.html?search=store">
+                        <img src="https://img.lazcdn.com/g/p/7b12df977ab3316915373d620174157a.png_200x200q80.png_.webp"
+                            source="[object Object]"
+                            placeholder="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="
+                            compresssuffix="Q75,Q50" defaultheight="750rem" class="w-[190px]" />
+                        <div class="absolute top-[175px] left-2">
+                            <span class="uppercase px-2 bg-red-600 text-[13px] py-[2px] font-bold rounded">Giữa
+                                tháng</span>
+                        </div>
+                        <div class="h-[120px] w-[190px] bg-white text-black px-2 pt-4">
+                            <span class="text-sm line-clamp-2">[HOẢ TỐC HCM] Lốc 24 Chai Thức Uống từ Sữa Chua
+                                Nutriboost Vị Cam 170ml/Chai Sale 15.11 Coca-Cola Chính Hãng</span>
+                            <div class="flex flex-col py-2">
+                                <span class="text-red-500 font-semibold">205.000 ₫</span>
+                                <del class="text-sm">250.000 ₫</del>
+                            </div>
+                        </div>
+                        <div class="w-[190px] bg-white pb-2 px-2">
+                            <button class="uppercase  w-full text-sm py-1 px-2 text-white rounded-full"
+                                style="background-image: linear-gradient(150deg, rgb(255, 41, 41), rgb(247, 19, 163));">Cho
+                                vào giỏ hàng >
+                            </button>
+                        </div>
+                    </a>
+                    <a class="relative rounded overflow-hidden"
+                        href="https://www.lazada.vn/products/hoa-toc-hcm-loc-24-chai-thuc-uong-tu-sua-chua-nutriboost-vi-cam-170mlchai-sale-1511-coca-cola-chinh-hang-i2580959311-s12583189200.html?search=store">
+                        <img src="https://img.lazcdn.com/g/p/7b12df977ab3316915373d620174157a.png_200x200q80.png_.webp"
+                            source="[object Object]"
+                            placeholder="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="
+                            compresssuffix="Q75,Q50" defaultheight="750rem" class="w-[190px]" />
+                        <div class="absolute top-[175px] left-2">
+                            <span class="uppercase px-2 bg-red-600 text-[13px] py-[2px] font-bold rounded">Giữa
+                                tháng</span>
+                        </div>
+                        <div class="h-[120px] w-[190px] bg-white text-black px-2 pt-4">
+                            <span class="text-sm line-clamp-2">[HOẢ TỐC HCM] Lốc 24 Chai Thức Uống từ Sữa Chua
+                                Nutriboost Vị Cam 170ml/Chai Sale 15.11 Coca-Cola Chính Hãng</span>
+                            <div class="flex flex-col py-2">
+                                <span class="text-red-500 font-semibold">205.000 ₫</span>
+                                <del class="text-sm">250.000 ₫</del>
+                            </div>
+                        </div>
+                        <div class="w-[190px] bg-white pb-2 px-2">
+                            <button class="uppercase  w-full text-sm py-1 px-2 text-white rounded-full"
+                                style="background-image: linear-gradient(150deg, rgb(255, 41, 41), rgb(247, 19, 163));">Cho
+                                vào giỏ hàng >
+                            </button>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="max-w-[1200px] mx-auto mt-[20px] pb-4">
+                <img src="https://img.lazcdn.com/us/lazgcp/8e766202-64c7-42b6-884e-7c817deec2c5_ALL-1189-150.png#width=1189&amp;height=150"
+                    style="display: block; max-width: 100%; margin: 0rem auto;">
+            </div>
+        </main>
+        <footer class=" mx-auto">
+            <div class="pb-[30px] bg-[#f4f4f6] w-full">
+                <div class="max-w-[1200px] grid grid-cols-4 mx-auto pt-6">
+                    <div>
+                        <h3 class=" text-[#0f136d] pb-1">LIÊN HỆ VỚI LAZADA</h3>
+                        <ul class="text-[#0f136d] text-[12px]">
+                            <li class="footer-li">
+                                <a href="https://www.lazada.vn/helpcenter/" rel="noopener noreferrer"
+                                    class="hover:underline">
+                                    Hotline &amp; Chat trực tuyến (24/7)
+                                </a>
+                            </li>
+                            <li class="footer-li">
+                                <a href="https://www.lazada.vn/helpcenter/" rel="noopener noreferrer"
+                                    class="hover:underline">
+                                    Trung tâm hỗ trợ
+                                </a>
+                            </li>
+                            <li class="footer-li">
+                                <a href="//www.lazada.vn/helpcenter/payments/" rel="noopener noreferrer"
+                                    class="hover:underline">
+                                    Hướng dẫn đặt hàng
+                                </a>
+                            </li>
+                            <li class="footer-li">
+                                <a href="//www.lazada.vn/helpcenter/shipping-and-delivery/" rel="noopener noreferrer"
+                                    class="hover:underline">
+                                    Giao hàng &amp; Nhận hàng
+                                </a>
+                            </li>
+                            <li class="footer-li">
+                                <a href="https://www.lazada.vn/helpcenter/products-on-lazada/" rel="noopener noreferrer"
+                                    class="hover:underline">
+                                    Chính sách hàng nhập khẩu
+                                </a>
+                            </li>
+                            <li class="footer-li">
+                                <a href="//www.lazada.vn/helpcenter/returns/?spm=a2o4n.helpcenter.0.0.8e226171cswmxE"
+                                    rel="noopener noreferrer" class="hover:underline">
+                                    Hướng dẫn đổi trả hàng
+                                </a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="lzd-footer-width-25">
+                        <h3 class="text-[#0f136d]">LAZADA VIỆT NAM</h3>
+                        <ul class="footer-list *:leading-[15px]">
+                            <li class="footer-li">
+                                <a href="//group.lazada.com/en/about/" rel="noopener noreferrer"
+                                    class="hover:underline text-[#0f136d] text-[12px]">Về Lazada Việt Nam</a>
+                            </li>
+                            <li class="footer-li">
+                                <a href="https://pages.lazada.vn/wow/i/vn/sell-on-lazada/register_now/"
+                                    rel="noopener noreferrer" class="hover:underline text-[#0f136d] text-[12px]">Bán
+                                    hàng cùng Lazada</a>
+                            </li>
+                            <li class="footer-li">
+                                <a href="https://www.lazada.vn/affiliate/" rel="noopener noreferrer"
+                                    class="hover:underline text-[#0f136d] text-[12px]">Chương trình Lazada Afﬁliate</a>
+                            </li>
+                            <li class="footer-li">
+                                <a href="//www.lazada.com/work-at-lazada/" rel="noopener noreferrer"
+                                    class="hover:underline text-[#0f136d] text-[12px]">Tuyển dụng</a>
+                            </li>
+                            <li class="footer-li">
+                                <a href="https://pages.lazada.vn/wow/gcp/route/lazada/vn/upr_1000345_lazada/channel/vn/upr-router/vn?hybrid=1&amp;data_prefetch=true&amp;prefetch_replace=1&amp;at_iframe=1&amp;wh_pid=/lazada/channel/vn/legal/terms-of-use"
+                                    rel="noopener noreferrer" class="hover:underline text-[#0f136d] text-[12px]">Điều
+                                    khoản sử dụng</a>
+                            </li>
+                            <li class="footer-li">
+                                <a href="https://pages.lazada.vn/wow/gcp/route/lazada/vn/upr_1000345_lazada/channel/vn/upr-router/vn?hybrid=1&amp;data_prefetch=true&amp;prefetch_replace=1&amp;at_iframe=1&amp;wh_pid=/lazada/channel/vn/legal/privacy"
+                                    rel="noopener noreferrer" class="hover:underline text-[#0f136d] text-[12px]">Chính
+                                    sách bảo mật</a>
+                            </li>
+                            <li class="footer-li">
+                                <a href="https://www.lazada.vn/press/" rel="noopener noreferrer"
+                                    class="hover:underline text-[#0f136d] text-[12px]">Báo chí</a>
+                            </li>
+                            <li class="footer-li">
+                                <a href="https://pages.lazada.vn/wow/gcp/route/lazada/vn/upr_1000345_lazada/channel/vn/upr-router/vn?hybrid=1&amp;data_prefetch=true&amp;prefetch_replace=1&amp;at_iframe=1&amp;wh_pid=/lazada/channel/vn/legal/infringement/policy"
+                                    rel="noopener noreferrer" class="hover:underline text-[#0f136d] text-[12px]">Bảo vệ
+                                    quyền sở hữu trí tuệ</a>
+                            </li>
+                            <li class="footer-li">
+                                <a href="https://pages.lazada.vn/wow/i/vn/LandingPage/quy-che-ban-hang"
+                                    rel="noopener noreferrer" class="hover:underline text-[#0f136d] text-[12px]">Quy chế
+                                    hoạt động sàn Lazada</a>
+                            </li>
+                            <li class="footer-li">
+                                <a href="https://pages.lazada.vn/wow/gcp/route/lazada/vn/upr_1000345_lazada/channel/vn/upr-router/vn?hybrid=1&amp;data_prefetch=true&amp;prefetch_replace=1&amp;wh_pid=/lazada/channel/vn/khuyen-mai/quy-trinh-giai-quyet-tranh-chap-khieu-nai"
+                                    rel="noopener noreferrer" class="hover:underline text-[#0f136d] text-[12px]">Quy
+                                    trình giải quyết tranh chấp, khiếu nại</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-span-2">
+                        <div class="flex gap-6">
+                            <div class="flex items-start gap-3">
+                                <img loading="lazy"
+                                    src="https://img.lazcdn.com/us/media/d33f1c45a4bd2fc773f8614625ed9cee-165-165.png"
+                                    alt="Tải App Lazada"
+                                    data-spm-anchor-id="a2o4n.10441748.footer_top.i0.3df577c1ecJsxv"
+                                    class="w-[42px] h-[42px]">
+                                <div class="flex flex-col leading-[20px]">
+                                    <span class="text-[#f36f36]">Always Better</span>
+                                    <span class="text-[#0f136d]">Tải App Lazada</span>
+                                </div>
+                            </div>
+                            <div class="grid grid-cols-2 gap-3">
+                                <a href="https://itunes.apple.com/app/id785385147">
+                                    <img loading="lazy"
+                                        src="https://img.lazcdn.com/us/domino/287a1db8-9616-4998-87c2-98f42f4f664e_VN-126-42.png"
+                                        class="w-[126px]" alt="Apple App Download">
+                                </a>
+                                <a href="https://play.google.com/store/apps/details?id=com.lazada.android">
+                                    <img loading="lazy"
+                                        src="https://img.lazcdn.com/us/domino/00fecce4-0f30-4d24-8a14-a22e164b8d26_VN-126-42.png"
+                                        class="w-[126px]" alt="Android App Download">
+                                </a>
+                                <a
+                                    href="https://appgallery.huawei.com/?spm=a2o4n.10441748.footer_top.huawei.3df577c1ecJsxv#/app/C100164557">
+                                    <img loading="lazy"
+                                        src="https://img.lazcdn.com/us/domino/76421850-ecc3-468e-b747-51959d838184_VN-126-42.png"
+                                        class="w-[126px]" alt="Huawei App Download">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="lzd-footer-app-supplement *:text-[12px] *:text-[#0f136d] pt-2">
+
+                            <div>CÔNG TY TNHH RECESS</div>
+
+                            <div>Giấy CNĐKDN: 0308808576 – Ngày cấp: 06/5/2009, được sửa đổi lần thứ 19 ngày 15/8/2019.
+                            </div>
+
+                            <div>Cơ quan cấp: Phòng Đăng ký kinh doanh – Sở kế hoạch và Đầu tư TP.HCM </div>
+
+                            <div data-spm-anchor-id="a2o4n.10441748.footer_top.i1.3df577c1HK38Z2">Địa chỉ đăng ký kinh
+                                doanh: Tầng 19, Tòa nhà Saigon Centre – Tháp 2, 67 Lê Lợi, Phường Bến Nghé, Quận 1, Tp.
+                                Hồ Chí Minh, Việt Nam.</div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-second" >
+                <div class="grid grid-cols-3 max-w-[1200px] mx-auto py-8">
+                    <div class="lzd-footer-width-32">
+                        <h3 class="lzd-footer-h3 pb-6">CÁCH THỨC THANH TOÁN</h3>
+                        <div class="max-w-[380px] flex items-center gap-5 pb-3">
+                            <span class="lzd-icon-payment ">
+                                <img loading="lazy"
+                                    src="https://img.lazcdn.com/us/domino/e33843e5-0363-4ec9-89d8-5967c636b1ab_VN-53-39.png"
+                                    alt="visa" style="height: 39px; width: 53px">
+                            </span>
+                            <span class="lzd-icon-payment ">
+                                <img loading="lazy"
+                                    src="https://img.lazcdn.com/us/domino/e713f5e2-be7c-477e-96e9-7de24e78ec6b_VN-53-39.png"
+                                    alt="ms" style="height: 39px; width: 53px">
+                            </span>
+                            <span class="lzd-icon-payment ">
+
+                                <img loading="lazy"
+                                    src="https://img.lazcdn.com/us/domino/507837ac-9aae-445a-b361-b96d6a12ce77_VN-53-39.png"
+                                    alt="jcb" style="height: 39px; width: 53px">
+                            </span>
+                            <span class="lzd-icon-payment ">
+                                <img loading="lazy"
+                                    src="https://img.lazcdn.com/us/domino/110408e5-c2da-4473-8da0-5181aee4d38f_VN-53-39.png"
+                                    alt="cod" style="height: 39px; width: 53px">
+                            </span>
+
+                        </div>
+                        <div class="flex items-center gap-4 w-full">
+                            <span class="lzd-icon-payment ">
+                                <img loading="lazy"
+                                    src="https://img.lazcdn.com/us/domino/736ad3c9-867b-4bb0-a7d8-f0d2cbd84f16_VN-53-39.png"
+                                    alt="napas" style="height: 39px; width: 53px">
+                            </span>
+                            <span class="lzd-icon-payment ">
+                                <img loading="lazy"
+                                    src="https://img.lazcdn.com/us/domino/20fc159a-0eda-4542-a0ae-d9fe3587406f_VN-30-31.png"
+                                    alt="ManualInstallmentsCC" style="height: 39px; width: 39px">
+                            </span>
+                            <span class="lzd-icon-payment ">
+                                <img loading="lazy"
+                                    src="https://img.lazcdn.com/us/domino/d594365d-81d9-431e-b028-125d1a46d504_VN-64-64.png"
+                                    alt="ZaloPay" style="height: 39px; width: 39px">
+                            </span>
+                            <span class="lzd-icon-payment ">
+                                <img loading="lazy"
+                                    src="https://img.lazcdn.com/us/domino/c57d926d-e93f-4a59-ad9b-82083c0bc2ce_VN-64-64.png"
+                                    alt="MoMo" style="height: 39px; width: 39px">
+                            </span>
+                        </div>
+                    </div>
+                    <div class="lzd-footer-width-32 lzd-footer-spacing">
+                        <h3 class="lzd-footer-h3 pb-6">DỊCH VỤ GIAO HÀNG</h3>
+                        <div class="grid grid-cols-3 w-[380px]">
+                            <img loading="lazy" class="lzd-icon-delivery"
+                                src="https://img.lazcdn.com/g/tps/imgextra/i3/O1CN01RNizk522j2cPtaRjc_!!6000000007155-2-tps-96-70.png"
+                                alt="Lazada Logistics">
+
+                            <img loading="lazy" class="lzd-icon-delivery"
+                                src="https://img.lazcdn.com/g/tps/imgextra/i3/O1CN01ahATKv21NE8iPiA0Q_!!6000000006972-2-tps-96-70.png"
+                                alt="GHN">
+
+                            <img loading="lazy" class="lzd-icon-delivery"
+                                src="https://img.lazcdn.com/g/tps/imgextra/i4/O1CN01S7cpxb1h5697fS0Bl_!!6000000004225-2-tps-96-70.png"
+                                alt="Ninja Van">
+
+                            <img loading="lazy" class="lzd-icon-delivery"
+                                src="https://img.lazcdn.com/g/tps/imgextra/i4/O1CN01wsWwqO1o1caN5JZDp_!!6000000005165-2-tps-96-70.png"
+                                alt="grab">
+
+                            <img loading="lazy" class="lzd-icon-delivery"
+                                src="https://img.lazcdn.com/g/tps/imgextra/i3/O1CN01wysPrK1R8jRG6tesj_!!6000000002067-2-tps-96-70.png"
+                                alt="bestInc">
+
+                            <img loading="lazy" class="lzd-icon-delivery"
+                                src="https://img.lazcdn.com/g/tps/imgextra/i3/O1CN01gjgEds1LYU0p2Pl9N_!!6000000001311-2-tps-96-70.png"
+                                alt="ahamove">
+
+                            <img loading="lazy" class="lzd-icon-delivery"
+                                src="https://img.lazcdn.com/g/tps/imgextra/i3/O1CN01TmRqKw1hqjKxGAxIf_!!6000000004329-2-tps-96-70.png"
+                                alt="JT">
+                        </div>
+                    </div>
+                    <div class=" lzd-footer-width-32 ">
+                        <h3 class="lzd-footer-h3 pb-6">Verified by</h3>
+                        <div class="lzd-footer-verified grid grid-cols-2 w-[280px]">
+                            <div class="lzd-footer-verified-left">
+                                <a class="lzd-footer-verified-item"
+                                    href="https://img.lazcdn.com/g/tps/imgextra/i3/O1CN01dinKMe26jjo1yfe9j_!!6000000007698-0-tps-2480-3509.jpg"
+                                    target="_blank" rel="noopener noreferrer">
+                                    <img loading="lazy" alt="CHỨNG NHẬN"
+                                        src="https://img.lazcdn.com/g/tps/tfs/TB1jyJMv.H1gK0jSZSyXXXtlpXa-184-120.png"
+                                        style="height: 60px;">
+                                </a>
+                                <a class="lzd-footer-verified-item" href="https://www.lazada.vn/terms-of-use/"
+                                    target="_blank" rel="noopener noreferrer">
+
+                                    <img loading="lazy" alt="vn-verified-1"
+                                        src="https://img.lazcdn.com/g/tps/imgextra/i3/O1CN01Bd0sVV1QY5gSQHbMq_!!6000000001987-2-tps-160-160.png"
+                                        style="height: 80px;">
+
+                                </a>
+                                <a class="lzd-footer-verified-item"
+                                    href="https://img.lazcdn.com/g/tps/imgextra/i4/O1CN01bvSldX1gkULXWGauo_!!6000000004180-2-tps-1190-1683.png"
+                                    target="_blank" rel="noopener noreferrer">
+
+                                    <img loading="lazy" alt="ISO"
+                                        src="https://img.lazcdn.com/g/tps/tfs/TB1Jnytq7L0gK0jSZFAXXcA9pXa-160-84.png"
+                                        style="height: 42px;">
+                                </a>
+                            </div>
+                            <div class="lzd-footer-verified-right">
+                                <a class="lzd-footer-verified-item"
+                                    href="http://online.gov.vn/WebsiteDisplay.aspx?DocId=14805" target="_blank"
+                                    rel="noopener noreferrer">
+
+                                    <img loading="lazy" alt="register-0"
+                                        src="https://img.lazcdn.com/g/tps/tfs/TB1fj5Nfr_I8KJjy1XaXXbsxpXa-373-140.png"
+                                        style="height: 40px;">
+                                </a>
+                                <a class="lzd-footer-verified-item"
+                                    href="http://online.gov.vn/CustomWebsiteDisplay.aspx?DocId=15953" target="_blank"
+                                    rel="noopener noreferrer">
+
+                                    <img loading="lazy" alt="announced"
+                                        src="https://img.lazcdn.com/g/tps/tfs/TB1iRzQc5qAXuNjy1XdXXaYcVXa-374-142.png"
+                                        style="height: 40px;">
+                                </a>
+                                <a class="lzd-footer-verified-item" href="http://online.gov.vn/AppDisplay.aspx?DocId=25"
+                                    target="_blank" rel="noopener noreferrer">
+
+                                    <img loading="lazy" alt="register-1"
+                                        src="https://img.lazcdn.com/g/tps/tfs/TB1cULQc5qAXuNjy1XdXXaYcVXa-373-140.png"
+                                        style="height: 40px;">
+
+                                </a>
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="lzd-footer-inner grid grid-cols-3 max-w-[1200px] mx-auto">
+                <div class="lzd-footer-width-50" data-spm="venture">
+                    <h3 class="lzd-footer-title">Lazada Southeast Asia</h3>
+                    <div class="lzd-footer-venture-list flex">
+                        <a class="lzd-footer-country country-id " href="https://www.lazada.co.id"
+                            data-spm-click="gostr=/lzdpub.footer.venture;locaid=id" rel="noopener noreferrer">
+                            <img loading="lazy" class="lzd-footer-country-image"
+                                src="https://img.lazcdn.com/us/domino/289777af-393a-4599-bbcb-2657299b19eb_VN-32-32.png"
+                                alt="id">
+                        </a>
+                        <a class="lzd-footer-country country-my " href="https://www.lazada.com.my"
+                            data-spm-click="gostr=/lzdpub.footer.venture;locaid=my" rel="noopener noreferrer">
+                            <img loading="lazy" class="lzd-footer-country-image"
+                                src="https://img.lazcdn.com/us/domino/2f56971e-8732-4db4-ad90-0f3f5bef9804_VN-32-32.png"
+                                alt="my">
+                        </a>
+                        <a class="lzd-footer-country country-ph " href="https://www.lazada.com.ph"
+                            data-spm-click="gostr=/lzdpub.footer.venture;locaid=ph" rel="noopener noreferrer">
+                            <img loading="lazy" class="lzd-footer-country-image"
+                                src="https://img.lazcdn.com/us/domino/fdc7c68d-c07f-48a5-8944-079be0630dc9_VN-32-32.png"
+                                alt="ph">
+                        </a>
+                        <a class="lzd-footer-country country-sg " href="https://www.lazada.sg"
+                            data-spm-click="gostr=/lzdpub.footer.venture;locaid=sg" rel="noopener noreferrer">
+                            <img loading="lazy" class="lzd-footer-country-image"
+                                src="https://img.lazcdn.com/us/domino/d3846da2-12fd-4d93-8eac-673143562230_VN-32-32.png"
+                                alt="sg">
+                        </a>
+                        <a class="lzd-footer-country country-th " href="https://www.lazada.co.th"
+                            data-spm-click="gostr=/lzdpub.footer.venture;locaid=th" rel="noopener noreferrer">
+                            <img loading="lazy" class="lzd-footer-country-image"
+                                src="https://img.lazcdn.com/us/domino/9fc9a3a0-a70c-40b4-a5cb-99773bcdf314_VN-32-32.png"
+                                alt="th">
+                        </a>
+                        <a class="lzd-footer-country country-vn " href="https://www.lazada.vn"
+                            data-spm-click="gostr=/lzdpub.footer.venture;locaid=vn" rel="noopener noreferrer">
+                            <img loading="lazy" class="lzd-footer-country-image"
+                                src="https://img.lazcdn.com/us/domino/f8f3232e-8ade-4eae-b3f1-811ad0a4e99d_VN-32-32.png"
+                                alt="vn">
+                        </a>
+                    </div>
+                </div>
+                <div class="lzd-footer-width-25" data-spm="sns">
+                    <h3 class="lzd-footer-title">Kết nối với chúng tôi</h3>
+                    <div class="lzd-follow-us-icon-list flex">
+                        <a class="lzd-follow-us-icon " href="https://www.facebook.com/LazadaSingapore"
+                            data-spm-click="gostr=/lzdpub.footer.sns;locaid=d_fbk" rel="noopener noreferrer">
+                            <img loading="lazy"
+                                src="https://img.lazcdn.com/g/tps/imgextra/i3/O1CN01Wdetn224xMIRNihao_!!6000000007457-2-tps-34-34.png"
+                                alt="fb">
+                        </a>
+
+                        <a class="lzd-follow-us-icon "
+                            href="https://www.linkedin.com/company/lazada?spm=a2o42.pdp_revamp.sns.d_lnk.2e024fd0B1FvTr"
+                            data-spm-click="gostr=/lzdpub.footer.sns;locaid=d_lnk" rel="noopener noreferrer">
+                            <img loading="lazy"
+                                src="https://img.lazcdn.com/g/tps/imgextra/i4/O1CN01D6oQr31GPG1ONK9jd_!!6000000000614-2-tps-34-34.png"
+                                alt="linkin">
+                        </a>
+
+                        <a class="lzd-follow-us-icon " href="https://www.youtube.com/channel/UC84pTcutLPrVHkRBx4QSh5g"
+                            data-spm-click="gostr=/lzdpub.footer.sns;locaid=d_ytb" rel="noopener noreferrer">
+                            <img loading="lazy"
+                                src="https://img.lazcdn.com/g/tps/imgextra/i4/O1CN01zt1zOu1zsFnzoIWje_!!6000000006769-2-tps-34-34.png"
+                                alt="yt">
+                        </a>
+
+                        <a class="lzd-follow-us-icon " href="https://www.instagram.com/lazada_sg"
+                            data-spm-click="gostr=/lzdpub.footer.sns;locaid=d_ins" rel="noopener noreferrer">
+                            <img loading="lazy"
+                                src="https://img.lazcdn.com/g/tps/imgextra/i4/O1CN011gka8L1E0PIZlHK7e_!!6000000000289-2-tps-34-34.png"
+                                alt="ins">
+                        </a>
+
+                        <a class="lzd-follow-us-icon " href="https://www.tiktok.com/@lazada_sg"
+                            data-spm-click="gostr=/lzdpub.footer.sns;locaid=d_tkk" rel="noopener noreferrer">
+                            <img loading="lazy"
+                                src="https://img.lazcdn.com/g/tps/imgextra/i4/O1CN0193C9ay1QIykTmUlwk_!!6000000001954-2-tps-34-34.png"
+                                alt="tiktok">
+                        </a>
+                    </div>
+                </div>
+                <div class="lzd-footer-width-25 flex justify-end pb-[50px]">
+                    <div class="lzd-footer-copyright text-[#606060]">
+                        © Lazada 2024
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
